@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #242b2e;
+}
+
+.content {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.counter_block {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #242323;
+}
+.count p {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+.buttons2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+.buttons button {
+    width: 45%;
+    height: 40px;
+    border: 2px solid #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    background: rgba(8, 147, 178, 0.86);
+    transition: all, 0.3s;
+    margin-left: 5px;
+
+}
+.buttons button:hover {
+    background: #fff;
+    color: #242b2e;
+}
+.calculate {
+    padding-top: 30px;
+}
+.calculate_block {
+    margin-bottom: 15px;
+}
+.calculate input {
+    border-radius: 10px;
+    width: 30%;
+    border: none;
+    height: 20px;
+}
+.calculate button {
+    width: 25%;
+    height: 20px;
+    border: 2px solid #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    background: rgba(8, 147, 178, 0.86);
+    transition: all, 0.3s;
+}
+.calculate button:hover {
+    background: #fff;
+    color: #242b2e;
+}
+.square2_button {
+    font-size: 9px;
+}

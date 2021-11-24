@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Counter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="content">
+        <div class="counter_block">
+            <div class="count">
+                <p id="count"></p>
+            </div>
+            <div class="buttons">
+                <button onclick="plusOrMinus('plus')">plus</button>
+                <button onclick="plusOrMinus('minus')">minus</button>
+                <button onclick="square()">square</button>
+                <button onclick="sqrt()">sqrt</button>
+                <button onclick="plusOrMinus()">reset</button>
+            </div>
+            <div class="calculate">
+                <div class="calculate_block">
+                    <div class="divide">
+                        <input type="number" placeholder="Введите делитель" id="divide_value">
+                        <button class="divide_button" onclick="divide()">Разделить</button>
+                    </div>
+                </div>
+                <div class="calculate_block">
+                    <div class="mult">
+                        <input type="number" placeholder="Введите множитель" id="mult_value">
+                        <button class="mult_button" onclick="mult()">Умножить</button>
+                    </div>
+                </div>
+                <div class="calculate_block">
+                    <div class="square2">
+                        <input type="number" placeholder="Введите степень" id="square_value">
+                        <button class="square2_button" onclick="square2()">Возвести</button>
+                    </div>
+                </div>
+                <div class="calculate_block">
+                    <div class="sum">
+                        <input type="number" placeholder="Введите число" id="sum_value">
+                        <button class="square2_button" onclick="sum()">Прибавить</button>
+                    </div>
+                </div>
+                <div class="calculate_block">
+                    <div class="minus">
+                        <input type="number" placeholder="Введите число" id="minus_value">
+                        <button class="square2_button" onclick="minus()">Отнять</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+<script src="counter.js"></script>
+</html>
